@@ -31,8 +31,8 @@ int main(int argc, char *argv[])
         notDucks++;
   }
 
-  cout << "Animal count:\t" << animals << endl;
-  cout << "Duck count:\t" << ducks << endl;
-  cout << "Non duck count:\t" << notDucks << endl;
+  cout << "Animal count:    " << animals << endl;
+  cout << "Duck count:      " << ducks << endl;
+  cout << "Non duck count:  " << notDucks << endl;
   return 0;
 }
