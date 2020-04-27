@@ -30,7 +30,8 @@ int main(int argc, char *argv[])
     else
         notDucks++;
   }
-
+  
+  cout << "Report for " << argv[1] << ":\n";
   cout << "Animal count:    " << animals << endl;
   cout << "Duck count:      " << ducks << endl;
   cout << "Non duck count:  " << notDucks << endl;
